@@ -20,9 +20,12 @@ p{
 .list_wrapper {
     list-style-type:none;
 }
-.list_inner>li {
+li:nth-child(even) {
     color: green;
 }
-.list_inner>li:nth-child(odd) {
+li:nth-child(odd){
     color: red;
+}
+.box{
+    margin: 20px;
 }
