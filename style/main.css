@@ -1,32 +1,71 @@
-.chess-board { 
-    border-spacing: 0;
-    border-collapse: collapse;
+.container {
+    max-width: 1400px;
+    padding: 0 5px;
+    margin: 0 auto;
 }
-.chess-board th { 
-    padding: .5em; 
+* {
+    box-sizing: border-box;
 }
-.chess-board th + th { 
-    border-bottom: 1px solid #000; 
+a { text-decoration: none;
+    display: block;
 }
-.chess-board th:first-child,
-.chess-board td:last-child { 
-    border-right: 1px solid #000; 
+.container {
+    max-width: 1400px;
+    padding: 0 5px;
+    margin: 0 auto;
 }
-.chess-board tr:last-child td { 
-    border-bottom: 1px solid; 
+.header {
+    margin: 0 auto;
 }
-.chess-board th:empty { 
-    border: none; 
+.header__inner {
+    background-image: url("../5395707a54785b915261bd2b1932242a.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 206px;
+    padding-bottom: 200px;
 }
-.chess-board td { 
-    width: 1.5em; height: 1.5em; 
-    text-align: center; 
-    font-size: 32px; 
-    line-height: 0;
+.header__about {
+ margin: 0 auto;
+ display: flex; 
+ justify-content: flex-end;  
+ max-width: 300px;
+ flex-direction: column;
 }
-.chess-board .light { 
-    background: #eee; 
+.header__about div {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    display: inline-block;
 }
-.chess-board .dark { 
-    background: #aaa; 
+.header__about-title {
+    font-size: 36px;
+    line-height: 42px;
+}
+.header__about-part {
+    font-size: 24px;
+    line-height: 28px;
+}
+.header__btns {
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 840px;
+}
+.header__btn {
+    border-radius: 4px;
+    text-align: center;
+    font-family: sans-serif; 
+    font-size: 16px;
+    line-height: 21px;
+    color: #fff;
+}
+.watch{
+    padding: 8px 19px 24px;
+    background-color: #8DD83D;
+    margin-right: 13px;
+}
+.explore{
+    padding: 8px 24px 9px 19px;
+    background:linear-gradient(180deg, #686868);
+
 }
